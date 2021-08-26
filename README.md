@@ -1,2 +1,2 @@
 # tensorflow_mnist
-# 将mnist数据解压后放入新建mnist_data文件夹
+# 将mnist数据解压后放入新建名为mnist_data的文件夹即可训练新model
