@@ -52,8 +52,8 @@ class MainWidget(QWidget):
 
     def on_recognize_clicked(self):
         image = self.__paintBoard.getImage()
-        image.save("text.png")
-        img = keras.preprocessing.image.load_img("text.png", target_size=(28, 28))
+        image.save("test.png")
+        img = keras.preprocessing.image.load_img("test.png", target_size=(28, 28))
         img = img.convert('L')
         x = keras.preprocessing.image.img_to_array(img)
         x = abs(255 - x)
